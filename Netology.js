@@ -8,7 +8,7 @@ const { chromium } = require("playwright");
   });
   const page = await browser.newPage();
   await page.goto("https://netology.ru");
-  await page.click("text=Каталог курсов");
+  await page.click("text=Войти");
   await page.pause();
 
   //assertion
